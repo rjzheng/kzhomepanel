@@ -1,10 +1,4 @@
-# React Webpack Express Boilerplate Project
-This is a boilerplate project for ReactJS developers.
+# Kevin's Home assistant web application
 
-## Integrated Technologies
-* React
-* Redux
-* Express
-* Nodejs
-* Webpack
-* Karma
+## This web app...
+*
