@@ -10,7 +10,11 @@ module.exports = {
       'node_modules',
       './app/components',
       './app/store',
-      './app/reducers'
+      './app/reducers',
+      './app/components/Home',
+      './app/components/Tasks',
+      './app/components/Navigation',
+      './app/components/Weather'
     ],
     alias: {
     },

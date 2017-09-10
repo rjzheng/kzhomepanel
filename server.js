@@ -4,7 +4,7 @@ var express = require('express');
 // Create express app
 var app = express();
 // Set the server url
-const ROOT_URL = '192.168.20.108';
+const ROOT_URL = 'localhost';
 // Use the environment's port, 8080 ass the default port
 var PORT = process.env.PORT || 8080;
 // App/server configuration
@@ -33,6 +33,12 @@ app.use(express.static('public'));
 app.listen(PORT, function () {
   console.log('Express server is up on port ' + PORT);
 });
+
+var db = require('./public/js/database.js');
+
+// db.getAllData().then(function(result) {
+//   console.log(result);
+// })
 
 // REST GET requests
 app.get('',function(req,res){

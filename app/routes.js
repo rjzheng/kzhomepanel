@@ -4,9 +4,11 @@ import { Route, IndexRoute } from 'react-router';
 
 /* Components */
 import App from 'App';
-import Home from 'Home';
+import HomePanel from 'HomePanel';
 
 export default (
   <Route path="/" component={App}>
+    <IndexRoute component={HomePanel} />
+    <Route path="/home" component={HomePanel} />
   </Route>
 );
