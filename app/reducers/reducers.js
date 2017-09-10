@@ -1,11 +1,16 @@
 /* Actions */
 // Import Actions
-// import { ADD_TASK, REMOVE_TASK } from 'actions';
+// import { SWITCH_TAB } from 'actions';
+
 // Initial state params
-const GLOBAL_STATE = { tasks: [] };
+const GLOBAL_STATE = { tasks: []};
 
 export var globalReducer = (state=GLOBAL_STATE, action) => {
 	switch(action.type) {
+		// case 'SWITCH_TAB':
+		// 	return {
+		//
+		// 	}
 		// case 'ADD_TASK':
 		// return {
 		// 	...state,

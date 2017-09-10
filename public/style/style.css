@@ -27,11 +27,6 @@ html {
   height: 100%;
 }
 
-body {
-  position: relative;
-  width: 100%;
-}
-
 
 .clearfix {zoom: 1}
 .clearfix:after {
@@ -86,10 +81,73 @@ body {
   margin-bottom: 5px;
 }
 
+.active-border {
+  border-bottom: 5px solid #00ADB5 !important;
+}
+
+.active-text {
+  color: #00ADB5 !important;
+}
+
+/* --------------------------------- */
+/* WIDGET */
+/* --------------------------------- */
+.widget {
+  position: relative;
+  border: 1px solid #393E46;
+}
+
+.left-panel {
+  width: 50%;
+  height: 100%;
+}
+
+.right-panel {
+  width: 50%;
+  height: 100%;
+}
+
+/* Calendar Widget */
+.calendar-widget {
+  width: 100%;
+  height: 40%;
+}
+
+/* Grocery Widget */
+.grocery-widget {
+  width: 50%;
+  height: 40%;
+}
+
+/* News Widget */
+.news-widget {
+  width: 100%;
+  height: 20%;
+}
+
+/* Photo Widget */
+.photo-widget {
+  width: 100%;
+  height: 80%;
+}
+
+/* Task Widget */
+.task-widget {
+  width: 50%;
+  height: 40%;
+}
+
+/* Weather Widget */
+.weather-widget {
+  width: 100%;
+  height: 20%;
+}
 
 /* --------------------------------- */
 /* HOME */
 /* --------------------------------- */
 .home-panel {
   float: left;
+  width: 100%;
+  height: 100%;
 }

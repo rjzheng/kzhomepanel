@@ -1,9 +1,18 @@
 import React from 'react';
+import WeatherWidget from 'WeatherWidget';
+import CalendarWidget from 'CalendarWidget';
+import TaskWidget from 'TaskWidget';
+import GroceryWidget from 'GroceryWidget';
 
 function LeftPanel() {
   return (
-    <div>
-      <h1>TEST LEFT</h1>
+    <div className="left-panel">
+      <WeatherWidget />
+      <CalendarWidget />
+      <div>
+        <TaskWidget />
+        <GroceryWidget />
+      </div>
     </div>
   )
 };

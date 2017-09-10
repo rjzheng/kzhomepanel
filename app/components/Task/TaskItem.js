@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import moment from 'moment';
 import { connect } from 'react-redux';
 
 class TaskItem extends Component {
@@ -8,7 +7,7 @@ class TaskItem extends Component {
 
     return(
       <div>
-        
+
       </div>
     )
   };

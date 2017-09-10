@@ -1,10 +1,14 @@
 import React from 'react';
 
+import PhotoWidget from 'PhotoWidget';
+import NewsWidget from 'NewsWidget';
+
 
 function RightPanel() {
   return (
-    <div>
-      <h1>TEST RIGHT</h1>
+    <div className="right-panel">
+      <PhotoWidget />
+      <NewsWidget />
     </div>
   )
 };

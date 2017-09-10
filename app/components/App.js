@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import HomePanel from 'HomePanel';
+import NavigationBar from 'NavigationBar';
 
 class Main extends Component {
 
